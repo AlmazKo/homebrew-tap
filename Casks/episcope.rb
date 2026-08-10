@@ -5,8 +5,8 @@
 # `version` and `sha256` from the freshly notarized DMG on every release;
 # the `url` interpolates #{version}, so only those two lines change.
 cask "episcope" do
-  version "0.7"
-  sha256 "8e71af2ef2da81e3e341eb7c8d26440e0e444ff4c0968570ebcef5bdfb0cb9d9"
+  version "0.8"
+  sha256 "8b180b6e583dd014bd7352624fc3981ec49c54527e1a5e0d0b681260536cbc1a"
 
   url "https://github.com/AlmazKo/EpiScope/releases/download/v#{version}/EpiScope-#{version}.dmg",
       verified: "github.com/AlmazKo/EpiScope/"
