@@ -8,8 +8,7 @@ cask "episcope" do
   version "0.9"
   sha256 "e7a1a037cc15834faf16fcd2eb216a34fc849d8d620b1ca415b83179a2a1a354"
 
-  url "https://github.com/AlmazKo/EpiScope/releases/download/v#{version}/EpiScope-#{version}.dmg",
-      verified: "github.com/AlmazKo/EpiScope/"
+  url "https://github.com/AlmazKo/EpiScope/releases/download/v#{version}/EpiScope-#{version}.dmg"
   name "EpiScope"
   desc "Menu-bar monitor for Claude Code, Codex and Claude Desktop agent sessions"
   homepage "https://github.com/AlmazKo/EpiScope"
